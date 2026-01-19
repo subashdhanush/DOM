@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+     <h2></h2>
+     <ul>
+    <li class="item">Item 1</li>
+    <li class="item">Item 2</li>
+    <li class="item">Item 3</li>
+</ul>
+
+
+    <script>
+   
+    // title=document.getElementById('title')
+    // title.style.color="red"
+    // title.innerText="Hello World"
+    const heading = document.querySelector("h1");
+    heading.innerText="HELLO WORLD"
+    heading.style.fontSize="50px";
+    // console.log(title)
+    const items=document.querySelectorAll(".item");
+    items.forEach(item=>{
+        item.style.color="blue";
+    });
+
+    document.querySelector("h1").innerText = "DOM Manipulation";
+    document.querySelector("h2").innerText="SUBASH";
+    const element = document.querySelector("h2");
+    // name.style.backgroundColor="yellow";
+    element.style.backgroundColor = "yellow";
+    element.style.color="red";
+
+   
+
+    </script>
+</body>
+</html>
